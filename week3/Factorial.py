@@ -1,5 +1,5 @@
 #Write a programme to print the factorial of a number using functions
-'''import math
+import math
 def factorial(n):
     for i in range(0,n):
         fact_n = n * (n-i)
@@ -13,7 +13,7 @@ def fact(n):
 num = int(input("Enter the number"))
 f = fact(num)
 print("Factorial of " ,num, "is" ,f)
-'''  
+ 
 #Write a programme to calculate simple interest
 # Python3 program to find simple interest
 # for given principal amount, time and

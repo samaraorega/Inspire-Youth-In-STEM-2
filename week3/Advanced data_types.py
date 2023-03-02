@@ -48,3 +48,12 @@ print(friend["Residence"])
 print(friend["Hobby"])
 
 #Sets
+#lacks key and value concept
+#divided into ordered and non-ordered
+
+my_fruits = {"orange","banana","apple","grapes"}
+for fruit in my_fruits:
+    print(fruit)
+
+print(type(my_fruits))
+print(len(my_fruits))

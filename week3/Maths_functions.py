@@ -11,7 +11,7 @@ print(z)
 
 y = 16
 #squaure root of 16
-z = math.sqrt(19)
+z = math.sqrt(16)
 
 #trigonometric values
 cos_x = math.cos(60)
