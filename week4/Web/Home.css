@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: blueviolet;
+}
+button{
+    color: brown;
+    margin: 25px;
+    align-self: center;
+    background-color: rgb(235, 235, 20);
+    border: 10px;
+    border-radius: 12px;
+}

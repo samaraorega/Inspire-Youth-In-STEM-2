@@ -1,12 +1,56 @@
+
 *{
     background-color: rgb(146, 220, 238);
 }
 p {
     font-family: "Times New Roman", Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+    color: blue;
+    font-size: large;
+    align-self: baseline;
+    background-color: bisque;
+}
 h2 {
      font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
    }
 
+.hi{
+    font-size: 12px;
+    color: beige;
+    align-self: baseline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-height: 30px;
+}
+#msg_button{
+    font-size: normal;
+    color: blueviolet;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: blueviolet;
+}
+button{
+    color: brown;
+    margin: 25px;
+    align-self: center;
+    background-color: rgb(235, 235, 20);
+    border: 10px;
+    border-radius: 12px;
+}
 
+#email_button{
+    color: aqua;
+    margin: 12px;
+    align-self: baseline;
+    border: 10px;
+    background-color: rgb(233, 241, 241);
+}
+
+h1{
+    color:blue ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
