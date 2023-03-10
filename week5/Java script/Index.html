@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <h1 id="text">Java script basics</h1>
+    <h1 id="my_full_name"></h1>
+    <h1 id="s_name"></h1>
+    
+    
+    <h1 id="f_number"></h1>
+    <h1 id="s_number"></h1>
+    <h1 id="sum"></h1>
+    <h2 id="fruits"></h2>
+
+    <script>
+        //variabled in java script
+        //number
+        var f_number = 12;
+        var s_number = 10;
+        var sum_number = f_number + s_number
+
+        //string
+        var my_first_name = " Samara "
+        var my_second_name = " Orega "
+        var age = 18;
+        var weight = 70;
+        var my_city = "Nairobi"
+        var my_full_name = my_first_name + my_second_name
+
+        //Arithmetic operaters
+        //-,+,*,%(modulus)
+        var sum_number = f_number + s_number
+        var diff_number = f_number - s_number
+        var quotient_number = f_number / s_number
+        var product_number = f_number * s_number
+
+        var n1,n2,n3,n4; //declare variables
+
+        let x;
+        let y;
+
+        //Arrays []
+    let fruits = ["Banana","Apple","Kiwi","Grapes","Guava"]
+    let my_fruit = fruits[fruits.length -1];
+    document.getElementById("fruits").innerHTML = my_fruit
+        //conditions --if else
+        if(age > 18) {
+            msg = "You can drive";
+        } else {
+            msg = "Tafuta uber"
+        }
+
+        document.getElementById("my_full_name").innerHTML = msg
+        document.getElementById("s_number").innerHTML = s_number
+        document.getElementById("sum").innerHTML = sum_number
+        document.getElementById("weight").innerHTML = weight
+    </script>
+    <button>Click me</button>
+</body> 
+</html>
