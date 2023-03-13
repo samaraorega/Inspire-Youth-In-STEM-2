@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Validity test</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <h1 id="text">LOG IN SYSTEM</h1>        
+            <form>
+                <p><label for="Name">Name</label>
+                <input type="text"></label><br>    
+                <p><label for="Age">Age</label>
+                <input type="text" id="age-input"></label><br> 
+            </form>
+            <h1 id="age"></h1>
+            <button id="msg_button" onclick="validateAge()">CONFIRM</button>
+
+            <h1 id="number"></h1>
+            <button id="Increase_btn">Increase</button>
+            <button id="Decrease_btn">Decrease</button>
+            <button id="Reset_btn">Reset</button>
+    <script>
+        
+       function validateAge(){
+        var age = document.getElementById("age-input").value;
+            if(age > 18) {
+            msg = "Welcome to the club";
+            console.log("Welcome to the club")
+            } else {
+            msg = "You are not allowed";
+            console.log("You are not allowed")
+        }
+        document.getElementById("age").innerHTML = msg;
+       } 
+
+       var number = 0
+       document.getElementById("Increase_number").onclick = function Increase_number(){
+        number += 1
+        console.log("number")
+        document.getElementById("number").innerHTML = number
+       }
+    </script>              
+    </body>
+</h1>
